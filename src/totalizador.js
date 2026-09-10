@@ -1,5 +1,4 @@
-const estados=[{value: "UT", impuesto: 0.0665},{value: "NV", impuesto: 0.08},{value: "TX", impuesto: 0.0625},{value: "AL", impuesto: 0.04} ]
-    
+const estados=[{value: "UT", impuesto: 0.0665},{value: "NV", impuesto: 0.08},{value: "TX", impuesto: 0.0625},{value: "AL", impuesto: 0.04}, {value: "CA", impuesto: 0.0825}]
 class Totalizador {
   constructor(cantidad, precio, estado) {
     this.cantidad = cantidad;

@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2209d2cae5bd19f01eedf7917b09a1ffbfafb37f",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T01:03:07.000Z",
       "message": "feat: Aplicar impuestos para AL",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/2209d2cae5bd19f01eedf7917b09a1ffbfafb37f"
     },
     "stats": {
       "total": 6,
@@ -167,6 +167,25 @@
     },
     "coverage": 83.33,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T01:05:48.000Z",
+      "message": "feat: Finalizar los impuestos",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 5,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 83.33,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

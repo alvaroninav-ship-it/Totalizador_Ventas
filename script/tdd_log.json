@@ -224,9 +224,47 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2209d2cae5bd19f01eedf7917b09a1ffbfafb37f",
     "commitName": "feat: Aplicar impuestos para AL",
     "commitTimestamp": 1789002188565,
     "testId": 8
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789002248741,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789002295113,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789002302745,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789002331413,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Finalizar los impuestos",
+    "commitTimestamp": 1789002349440,
+    "testId": 9
   }
 ]
