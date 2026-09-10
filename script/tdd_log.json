@@ -412,9 +412,55 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ec3d2380d8b381acea0f047e5d4ce621a4b7069d",
     "commitName": "feat: Aplicar todos los descuentos por precios",
     "commitTimestamp": 1789004007161,
     "testId": 14
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789005853306,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789005890343,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789006235700,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789006258510,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789006263900,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Aplicar impuesto y descuento categoria",
+    "commitTimestamp": 1789006289296,
+    "testId": 15
   }
 ]

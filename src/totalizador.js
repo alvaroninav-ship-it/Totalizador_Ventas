@@ -1,11 +1,32 @@
 const estados=[{value: "UT", impuesto: 0.0665},{value: "NV", impuesto: 0.08},{value: "TX", impuesto: 0.0625},{value: "AL", impuesto: 0.04}, {value: "CA", impuesto: 0.0825}]
+
+const categorias = [
+  { value: "Alimentos", descuento: 0.02,impuesto: 0.00 },
+];
+
+
 class Totalizador {
-  constructor(cantidad, precio, estado) {
+  constructor(cantidad, precio, estado, categoria) {
     this.cantidad = cantidad;
     this.precio = precio;
     this.estado = estado;
+    this.categoria = categoria;
   }
 
+  obtenerDescuentoPorCategoria() {
+    const categoria = categorias.find(c => c.value === this.categoria);
+    if (categoria) {
+      return categoria.descuento;
+    }
+    return 0;
+  }
+  obtenerImpuestoPorCategoria() {
+    const categoria = categorias.find(c => c.value === this.categoria);
+    if (categoria) {
+      return categoria.impuesto;
+    }   
+    return 0;
+    }
   validar(){
     let mensaje="";
     if(this.precio<0){
@@ -54,7 +75,7 @@ class Totalizador {
   }
   
   calcularTotal() {
-    return this.cantidad * this.precio + this.calcularImpuesto() - this.obtenerDescuentoEnPesos();
+    return this.cantidad * this.precio + this.calcularImpuesto() - this.obtenerDescuentoEnPesos() - this.obtenerSubtotal() * this.obtenerDescuentoPorCategoria() + this.obtenerSubtotal() * this.obtenerImpuestoPorCategoria();
   }
   getImpuesto() {
     const estado = estados.find(e => e.value === this.estado);

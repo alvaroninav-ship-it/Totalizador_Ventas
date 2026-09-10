@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ec3d2380d8b381acea0f047e5d4ce621a4b7069d",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T01:33:25.000Z",
       "message": "feat: Aplicar todos los descuentos por precios",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/ec3d2380d8b381acea0f047e5d4ce621a4b7069d"
     },
     "stats": {
       "total": 7,
@@ -281,6 +281,25 @@
     },
     "coverage": 89.47,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T02:11:28.000Z",
+      "message": "feat: Aplicar impuesto y descuento categoria",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 49,
+      "additions": 46,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 92,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
