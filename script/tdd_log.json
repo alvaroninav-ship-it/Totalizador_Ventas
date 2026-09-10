@@ -634,9 +634,39 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ae192a6a7910c3d77124cee2933485722a251406",
     "commitName": "feat: Agregar impuestos y descuentos para muebles",
     "commitTimestamp": 1789008183258,
     "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1789008257967,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1789008275036,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1789008298694,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Agregar impuestos y descuentos a electronicos",
+    "commitTimestamp": 1789008321092,
+    "testId": 20
   }
 ]

@@ -6,6 +6,7 @@ const categorias = [
   { value: "Bebidas alcohólicas", descuento: 0.00,impuesto: 0.07 },
   { value: "Material de escritorio", descuento: 0.015,impuesto: 0.00 },
   { value: "Muebles", descuento: 0.0,impuesto: 0.03 },
+  { value: "Electrónicos", descuento: 0.01,impuesto: 0.04 },
 ];
 
 
