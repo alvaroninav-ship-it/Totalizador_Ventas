@@ -38,12 +38,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "bd2faabe3f3ac7e0a2d46934a12e895c9bfda086",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T00:09:19.000Z",
       "message": "fix: Presenter Arreglado",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/bd2faabe3f3ac7e0a2d46934a12e895c9bfda086"
     },
     "stats": {
       "total": 3,
@@ -55,5 +55,24 @@
     "test_count": 2,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T00:20:50.000Z",
+      "message": "feat: Validar Inputs",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 31,
+      "deletions": 4,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

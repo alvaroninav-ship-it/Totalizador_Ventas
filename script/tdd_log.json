@@ -28,9 +28,63 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bd2faabe3f3ac7e0a2d46934a12e895c9bfda086",
     "commitName": "fix: Presenter Arreglado",
     "commitTimestamp": 1788998961005,
     "testId": 2
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788999357970,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 3,
+    "numTotalTests": 3,
+    "timestamp": 1788999397763,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 3,
+    "numTotalTests": 3,
+    "timestamp": 1788999465700,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 3,
+    "numTotalTests": 3,
+    "timestamp": 1788999504040,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788999526662,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788999554625,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Validar Inputs",
+    "commitTimestamp": 1788999651274,
+    "testId": 3
   }
 ]

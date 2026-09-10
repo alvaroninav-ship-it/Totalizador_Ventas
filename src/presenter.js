@@ -11,5 +11,5 @@ form.addEventListener("submit", (event) => {
   const quantity = Number.parseInt(quantityInput.value);
 
   const totalizadorInstance = new totalizador(quantity, price);
-  div.innerHTML = "<p>" + totalizadorInstance.calcularTotal() + "</p>";
+  div.innerHTML = "<p>" + totalizadorInstance.mostrarResultado() + "</p>";
 });
