@@ -702,9 +702,47 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eb7097d4c615f2f5c4762152438c79623038b7b9",
     "commitName": "feat: Descuentos e impuestos para vestimentas",
     "commitTimestamp": 1789008667882,
     "testId": 21
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789008949111,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 20,
+    "numTotalTests": 22,
+    "timestamp": 1789009058828,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 19,
+    "numTotalTests": 22,
+    "timestamp": 1789009108245,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1789009131575,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Calcular el peso por unidad",
+    "commitTimestamp": 1789009159014,
+    "testId": 22
   }
 ]

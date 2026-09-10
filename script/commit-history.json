@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eb7097d4c615f2f5c4762152438c79623038b7b9",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T02:51:06.000Z",
       "message": "feat: Descuentos e impuestos para vestimentas",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/eb7097d4c615f2f5c4762152438c79623038b7b9"
     },
     "stats": {
       "total": 5,
@@ -414,6 +414,25 @@
     },
     "coverage": 85.71,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T02:59:17.000Z",
+      "message": "feat: Calcular el peso por unidad",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 36,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 87.14,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }

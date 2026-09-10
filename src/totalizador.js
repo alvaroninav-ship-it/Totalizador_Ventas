@@ -12,11 +12,12 @@ const categorias = [
 
 
 class Totalizador {
-  constructor(cantidad, precio, estado, categoria) {
+  constructor(cantidad, precio, estado, categoria,pesoVolumetrico) {
     this.cantidad = cantidad;
     this.precio = precio;
     this.estado = estado;
     this.categoria = categoria;
+    this.pesoVolumetrico = pesoVolumetrico;
   }
 
   obtenerDescuentoPorCategoria() {
@@ -32,6 +33,19 @@ class Totalizador {
       return categoria.impuesto;
     }   
     return 0;
+    }
+
+   
+    obtenerCostoEnvioPorUnidad() {
+        const peso = this.pesoVolumetrico;
+
+        if (peso <= 10) {
+            return 0;
+        }
+        return 0
+    }
+    calcularCostoEnvio() {
+    return this.cantidad * this.obtenerCostoEnvioPorUnidad();
     }
   validar(){
     let mensaje="";
@@ -89,7 +103,8 @@ class Totalizador {
     const precioConDescuentos =precioConDescuento - descuentoCategoria;
     const impuestoEstado =this.calcularImpuesto(precioConDescuentos);
     const impuestoCategoria =precioConDescuentos * this.obtenerImpuestoPorCategoria();
-    return precioConDescuentos + impuestoEstado + impuestoCategoria;
+    const costoEnvio =this.calcularCostoEnvio();
+    return precioConDescuentos + impuestoEstado + impuestoCategoria+ costoEnvio;
 }
   getImpuesto() {
     const estado = estados.find(e => e.value === this.estado);
