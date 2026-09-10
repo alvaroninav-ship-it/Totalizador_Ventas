@@ -124,7 +124,7 @@ class Totalizador {
     if(this.pesoVolumetrico === undefined || this.pesoVolumetrico === null || this.pesoVolumetrico === "") {
         mensaje += "El peso volumétrico es obligatorio. ";
     }
-    if(this.pesoVolumetrico<=0){
+    if(this.pesoVolumetrico<0){
       mensaje+="El peso volumétrico debe ser mayor o igual a 0. ";
     }
     return mensaje;

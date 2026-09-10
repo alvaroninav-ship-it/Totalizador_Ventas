@@ -1292,9 +1292,31 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c2829e0a272eb9779ae5100bd8bb1e05cbc89db3",
     "commitName": "feat: Mejorar toda la interfaz",
     "commitTimestamp": 1789018213009,
     "testId": 38
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 21,
+    "numTotalTests": 35,
+    "timestamp": 1789018257949,
+    "success": false,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1789018290566,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: Arreglar detalle de peso volumetrico",
+    "commitTimestamp": 1789018338092,
+    "testId": 39
   }
 ]
