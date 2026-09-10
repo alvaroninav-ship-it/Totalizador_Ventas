@@ -13,6 +13,7 @@ const tiposCliente = [
     { value: "Normal", descuento: 0.00 },
     { value: "Recurrente", descuento: 0.005 },
     { value: "Antiguo Recurrente", descuento: 0.01 },
+    { value: "Especial", descuento: 0.015 }
 ]
 
 

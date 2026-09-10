@@ -570,17 +570,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d21327006af8251069a7a32efd0d0a22a9f14c63",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T03:27:06.000Z",
       "message": "feat: Descuento a clinete antiguo  recurrente",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/d21327006af8251069a7a32efd0d0a22a9f14c63"
     },
     "stats": {
       "total": 5,
       "additions": 5,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 89.01,
+    "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T03:28:57.000Z",
+      "message": "feat: Descuento a clinete Especial",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 4,
+      "deletions": 3,
       "date": "2026-09-10"
     },
     "coverage": 89.01,
