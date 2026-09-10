@@ -17,6 +17,14 @@ describe("Totalizador", () => {
     const totalizadorInstance = new totalizador(5, 5,"UT");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 26.6625");
   });
+  it("deberia haber impuesto por estado", () => {
+    const totalizadorInstance = new totalizador(5, 5,"NV");
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 27");
+  });
+  it("deberia haber impuesto por estado", () => {
+    const totalizadorInstance = new totalizador(5, 5,"TX");
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 26.5625");
+  });
 
 
 

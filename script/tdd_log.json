@@ -126,9 +126,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fe1aafcf1cc342d53a471fe1215f4165338de41c",
     "commitName": "style: Anadir el impuesto y estetica",
     "commitTimestamp": 1789001420748,
     "testId": 5
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1789001708305,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1789001723984,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1789001770186,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Aplicar descuento para NV",
+    "commitTimestamp": 1789001896965,
+    "testId": 6
   }
 ]

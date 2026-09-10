@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fe1aafcf1cc342d53a471fe1215f4165338de41c",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T00:50:19.000Z",
       "message": "style: Anadir el impuesto y estetica",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/fe1aafcf1cc342d53a471fe1215f4165338de41c"
     },
     "stats": {
       "total": 30,
@@ -110,6 +110,25 @@
     },
     "coverage": 83.33,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T00:58:15.000Z",
+      "message": "feat: Aplicar descuento para NV",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 83.33,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
