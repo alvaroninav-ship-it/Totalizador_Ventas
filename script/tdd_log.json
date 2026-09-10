@@ -1278,9 +1278,23 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "459e956a7e2fde8b6fff56dfd52261ca3ac469d7",
     "commitName": "refactor: Mejorar legibilidad",
     "commitTimestamp": 1789014925831,
     "testId": 37
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1789016587541,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mejorar toda la interfaz",
+    "commitTimestamp": 1789018213009,
+    "testId": 38
   }
 ]

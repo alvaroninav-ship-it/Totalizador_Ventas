@@ -124,7 +124,7 @@ class Totalizador {
     if(this.pesoVolumetrico === undefined || this.pesoVolumetrico === null || this.pesoVolumetrico === "") {
         mensaje += "El peso volumétrico es obligatorio. ";
     }
-    if(this.pesoVolumetrico<0){
+    if(this.pesoVolumetrico<=0){
       mensaje+="El peso volumétrico debe ser mayor o igual a 0. ";
     }
     return mensaje;
@@ -181,11 +181,50 @@ class Totalizador {
     const costoEnvio =this.calcularCostoEnvio();
     return precioConDescuentos + impuestoEstado + impuestoCategoria+ costoEnvio-descuentoFijo;
 }
+    getImpuestoPorEstado(precio) {
+    const estado = estados.find(
+        e => e.value === this.estado
+    );
+
+    if (estado) {
+        const porcentaje = estado.impuesto * 100;
+        const impuesto = estado.impuesto * precio;
+
+        return `Para ${this.estado}: ${porcentaje}% → +$${impuesto.toFixed(2)}`;
+    }
+
+    return "";
+    }
+   getDescuentoPorCliente(precio) {
+    const cliente = tiposCliente.find(
+        c => c.value === this.tipoCliente
+    );
+
+    if (cliente) {
+        const porcentaje = cliente.descuento * 100;
+        const descuento = cliente.descuento * precio;
+
+        return `Para ${this.tipoCliente}: ${porcentaje}% → -$${descuento.toFixed(2)}`;
+    }
+
+    return "";
+    }
+    getDescuentoPorCategoria(precio) {
+    const categoria = categorias.find(c => c.value === this.categoria);
+    if (categoria) {
+        const porcentaje = categoria.descuento * 100;
+        const descuento = categoria.descuento * precio;
+        return `Para ${this.categoria}: ${porcentaje}% → -$${descuento.toFixed(2)}`;
+        }
+    }
   getImpuesto() {
     const estado = estados.find(e => e.value === this.estado);
     if (estado) {
       return "Para " + this.estado + ": " + (estado.impuesto * 100) + "%";
     }
+  }
+  getImpuestoPorPeso(){
+    
   }
   obtenerImpuesto() {
   const estado = estados.find(e => e.value === this.estado);

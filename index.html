@@ -11,120 +11,114 @@
   <h1>Totalizador de Ventas</h1>
   <form id="ventas-form">
     <table class="totalizador">
-      <tr>
-        <td class="label">
-          <label for="cantidad">Cantidad de item</label>
-        </td>
-        <td>
-          <input type="number" id="cantidad">
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="label">
-          <label for="precio">Precio por item:</label>
-        </td>
-        <td>
-          <input type="number" id="precio" step="0.01">
-        </td>
-        <td>
-          <input type="submit" value="Totalizar" id="calcular-total-button">
-        </td>
-      </tr>
-      <tr>
-        <td class="label">
-          <label for="estado">Estado:</label>
-        </td>
-        <td>
-          <select type="select" id="estado">
-            <option value="CA">CA </option>
-            <option value="UT">UT </option>
-            <option value="NV">NV</option>
-            <option value="TX">TX  </option>
-            <option value="AL">AL </option>
-            <option value="UT">UT </option>
-          </select>
-        </td>
-        <td>
-        </td>
-      </tr>
-      <tr>
-        <td class="label">
-          <label for="categoria">Categoria Producto:</label>
-        </td>
-        <td>
-          <select type="select" id="categoria">
-            <option value="Alimentos">Alimentos</option>
-            <option value="Bebidas alcohólicas">Bebidas alcohólicas</option>
-            <option value="Material de escritorio">Material de escritorio</option>
-            <option value="Muebles">Muebles </option>
-            <option value="Electrónicos">Electrónicos	 </option>
-            <option value="Vestimenta">Vestimenta </option>
-            <option value="Varios">Varios	</option>
-          </select>
-        </td>
-        <td>
-        </td>
-      </tr>
-      <tr>
-        <td class="label">
-          <label for="peso">Peso del item:</label>
-        </td>
-        <td>
-          <input type="number" id="peso" step="0.01">
-        </td>
-        <td>
-          <div id="envio-div"></div>
-        </td>
-      </tr>
-      <tr>
-        <td class="label">
-          <label for="descuento">Descuento:</label>
-        </td>
-        <td>
-          <div id="descuento-div"></div>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="label">
-          <label for="cliente">Tipo de cliente:</label>
-        </td>
-        <td>
-          <select type="select" id="cliente">
-            <option value="Normal">Normal</option>
-            <option value="Recurrente">Recurrente</option>
-            <option value="Antiguo Recurrente">Antiguo Recurrente</option>
-            <option value="Especial">Especial</option>
-          </select>
-        </td>
-        <td>
-          <div id="tipo-cliente-div"></div>
-        </td>
-      </tr>
-      <tr>
-        <td class="label">
-          <label for="descuento-fijo">Descuento fijo:</label>
-        </td>
-        <td>
-          <div id="descuento-fijo-div"></div>
-        </td>
-        <td></td>
-      <tr>
-        <td class="label">
-          <label for="impuesto">Impuesto:</label>
-        </td>
-        <td>
-          <div id="impuesto-div"></div>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <div id="resultado-div"></div>
-        </td>
-      </tr>
-    </table>
+  <tr>
+    <td class="label">
+      <label for="cantidad">Cantidad de items:</label>
+    </td>
+    <td>
+      <input type="number" id="cantidad">
+    </td>
+  </tr>
+  <tr>
+    <td class="label">
+      <label for="precio">Precio por item:</label>
+    </td>
+    <td>
+      <input type="number" id="precio" step="0.01">
+    </td>
+  </tr>
+  <tr>
+    <td class="label">
+      <label for="estado">Estado:</label>
+    </td>
+    <td>
+      <select id="estado">
+        <option value="CA">CA</option>
+        <option value="UT">UT</option>
+        <option value="NV">NV</option>
+        <option value="TX">TX</option>
+        <option value="AL">AL</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td class="label">
+      <label for="categoria">Categoría:</label>
+    </td>
+    <td>
+      <select id="categoria">
+        <option value="Alimentos">Alimentos</option>
+        <option value="Bebidas alcohólicas">
+          Bebidas alcohólicas
+        </option>
+        <option value="Material de escritorio">
+          Material de escritorio
+        </option>
+        <option value="Muebles">Muebles</option>
+        <option value="Electrónicos">Electrónicos</option>
+        <option value="Vestimenta">Vestimenta</option>
+        <option value="Varios">Varios</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td class="label">
+      <label for="peso">Peso volumétrico:</label>
+    </td>
+    <td>
+      <input type="number" id="peso" step="0.01">
+    </td>
+  </tr>
+  <tr>
+    <td class="label">
+      <label for="cliente">Tipo de cliente:</label>
+    </td>
+    <td>
+      <select id="cliente">
+        <option value="Normal">Normal</option>
+        <option value="Recurrente">Recurrente</option>
+        <option value="Antiguo Recurrente">
+          Antiguo Recurrente
+        </option>
+        <option value="Especial">Especial</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1">
+      <input
+        type="submit"
+        value="Totalizar"
+        id="calcular-total-button"
+      >
+    </td>
+    <td colspan="1">
+      <input
+        type="clear"
+        value="Limpiar"
+        id="limpiar-form-button"
+      >
+    </td>
+  </tr>
+</table>
+
+  <div class="detalle">
+
+   <h2>Detalle del cálculo</h2>
+
+    <div id="descuento-div"></div>
+
+    <div id="tipo-cliente-div"></div>
+
+    <div id="envio-div"></div>
+
+    <div id="descuento-fijo-div"></div>
+
+    <div id="impuesto-div"></div>
+
+    <div id="resultado-div"></div>
+
+  </div>
   </form>
   <script type="module" src="./src/presenter.js"></script>
 

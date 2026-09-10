@@ -11,6 +11,15 @@ body {
       border: 1px solid #333;
       padding: 8px;
     }
+   .descuento {
+    color: #198754;
+    font-weight: bold;
+}
+
+.impuesto {
+    color: #dc3545;
+    font-weight: bold;
+}
 
     .label {
       width: 180px;
@@ -20,6 +29,13 @@ body {
       width: 60px;
       border: none;
       font-size: 14px;
+    }
+    #limpiar-form-button {
+      width: 100px;
+      padding: 8px;
+      border: none;
+      background: #ccc;
+      cursor: pointer;
     }
 
     #calcular-total-button {
