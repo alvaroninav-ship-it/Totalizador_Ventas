@@ -1314,9 +1314,23 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dac0826e03bac11210a3cabee943cfd8ac38e6eb",
     "commitName": "fix: Arreglar detalle de peso volumetrico",
     "commitTimestamp": 1789018338092,
     "testId": 39
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1789021031510,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: Arreglos detalles",
+    "commitTimestamp": 1789021048373,
+    "testId": 40
   }
 ]

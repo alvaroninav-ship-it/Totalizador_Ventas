@@ -1,4 +1,4 @@
-const estados=[{value: "UT", impuesto: 0.0665},{value: "NV", impuesto: 0.08},{value: "TX", impuesto: 0.0625},{value: "AL", impuesto: 0.04}, {value: "CA", impuesto: 0.0825}]
+const estados=[{value: "UT", impuesto: 0.0665},{value: "NV", impuesto: 0.08},{value: "TX", impuesto: 0.0625},{value: "AL", impuesto: 0.04}, {value: "CA", impuesto: 0.0825},{value:"No one", impuesto:0.00}];
 
 const categorias = [
   { value: "Alimentos", descuento: 0.02,impuesto: 0.00 },

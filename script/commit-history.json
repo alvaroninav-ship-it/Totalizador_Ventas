@@ -741,16 +741,35 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "dac0826e03bac11210a3cabee943cfd8ac38e6eb",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T05:32:16.000Z",
       "message": "fix: Arreglar detalle de peso volumetrico",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/dac0826e03bac11210a3cabee943cfd8ac38e6eb"
     },
     "stats": {
       "total": 2,
       "additions": 1,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 71.65,
+    "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T06:17:27.000Z",
+      "message": "fix: Arreglos detalles",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
       "deletions": 1,
       "date": "2026-09-10"
     },
