@@ -458,9 +458,63 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "50432d3792a594a74acd1814a49b4ca24ee46e89",
     "commitName": "feat: Aplicar impuesto y descuento categoria",
     "commitTimestamp": 1789006289296,
     "testId": 15
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 14,
+    "numTotalTests": 15,
+    "timestamp": 1789006591882,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 7,
+    "numTotalTests": 15,
+    "timestamp": 1789006769949,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 7,
+    "numTotalTests": 15,
+    "timestamp": 1789006819883,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789007086104,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789007193671,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789007212464,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: Cambiar el calculo de precios",
+    "commitTimestamp": 1789007251722,
+    "testId": 16
   }
 ]

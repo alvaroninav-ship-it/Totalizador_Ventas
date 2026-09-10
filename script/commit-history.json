@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "50432d3792a594a74acd1814a49b4ca24ee46e89",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T02:11:28.000Z",
       "message": "feat: Aplicar impuesto y descuento categoria",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/50432d3792a594a74acd1814a49b4ca24ee46e89"
     },
     "stats": {
       "total": 49,
@@ -299,6 +299,25 @@
       "date": "2026-09-10"
     },
     "coverage": 92,
+    "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T02:27:30.000Z",
+      "message": "refactor: Cambiar el calculo de precios",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 21,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 85.71,
     "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"

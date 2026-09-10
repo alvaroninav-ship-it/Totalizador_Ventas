@@ -55,8 +55,9 @@ describe("Totalizador", () => {
   });
   it("Aplicar descuentos e impuestos por producto", () => {
     const totalizadorInstance = new totalizador(10000, 7,"CA","Alimentos");
-    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 63875");
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 64085");
   });
+  
 
 
 
