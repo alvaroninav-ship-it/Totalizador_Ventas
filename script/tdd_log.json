@@ -352,9 +352,39 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cb9e7c8ff76b077c366b3c104dd3cc18e13a4314",
     "commitName": "feat: Aplicar descuentos para superiores a 7000",
     "commitTimestamp": 1789003726596,
     "testId": 12
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789003792797,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789003823553,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789003855283,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Aplicar descuentos superiores a 10000",
+    "commitTimestamp": 1789003879947,
+    "testId": 13
   }
 ]
