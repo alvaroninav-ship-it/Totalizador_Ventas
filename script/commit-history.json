@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8315f4462d916aa539d8c55d1381436c0f930253",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T03:46:23.000Z",
       "message": "style: Agregando columnas de informacion",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/8315f4462d916aa539d8c55d1381436c0f930253"
     },
     "stats": {
       "total": 36,
@@ -623,6 +623,25 @@
     },
     "coverage": 89.47,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T03:55:09.000Z",
+      "message": "feat: Validar valores nulos o inexistentes",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 89.9,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }

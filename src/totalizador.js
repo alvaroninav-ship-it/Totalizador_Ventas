@@ -96,6 +96,12 @@ class Totalizador {
     }
   validar(){
     let mensaje="";
+    if (this.cantidad === undefined || this.cantidad === null || this.cantidad === "") {
+        mensaje += "La cantidad es obligatoria. ";
+    }
+    if (this.precio === undefined || this.precio === null || this.precio === "") {
+        mensaje += "El precio es obligatorio. ";
+    }
     if(this.precio<0){
       mensaje+="El precio no puede ser negativo. ";
     }

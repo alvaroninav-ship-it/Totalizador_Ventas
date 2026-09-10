@@ -121,6 +121,16 @@ describe("Totalizador", () => {
     const totalizadorInstance = new totalizador(5, 100, "UT", "Vestimenta", 150, "Especial");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 582.65");
     });
+    it("Validar precio faltante", () => {
+    const totalizadorInstance =new totalizador(undefined, 100, "CA", "Varios", 10, "Normal");
+    expect(totalizadorInstance.validar()).toContain("La cantidad es obligatoria.");
+    });
+    it("Validar cantidad faltante", () => {
+    const totalizadorInstance =new totalizador(2, undefined, "CA", "Varios", 10, "Normal");
+    expect(totalizadorInstance.validar()).toContain("El precio es obligatorio.");
+
+});
+
 
 
 

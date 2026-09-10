@@ -1048,9 +1048,55 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8315f4462d916aa539d8c55d1381436c0f930253",
     "commitName": "style: Agregando columnas de informacion",
     "commitTimestamp": 1789011984519,
     "testId": 32
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1789012234944,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1789012303571,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 2,
+    "numTotalTests": 32,
+    "timestamp": 1789012381352,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 2,
+    "numTotalTests": 32,
+    "timestamp": 1789012437906,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1789012484663,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Validar valores nulos o inexistentes",
+    "commitTimestamp": 1789012511053,
+    "testId": 33
   }
 ]
