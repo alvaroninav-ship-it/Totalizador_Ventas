@@ -33,7 +33,10 @@ describe("Totalizador", () => {
     const totalizadorInstance = new totalizador(5, 5,"CA");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 27.0625");
   });
-  
+  it("deberia haber impuesto por estado", () => {
+    const totalizadorInstance = new totalizador(200, 5,"CA");
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 1052.5");
+  });
 
 
 

@@ -26,9 +26,20 @@ class Totalizador {
       return mensaje;
     }
   }
+  obtenerSubtotal() {
+    return this.cantidad * this.precio;
+  }
+
+  obtenerDescuento() {
+    const subtotal = this.obtenerSubtotal();
+
+    if (subtotal >= 1000) {
+      return 0.03;
+    }
+  }
   
   calcularTotal() {
-    return this.cantidad * this.precio + this.calcularImpuesto();
+    return this.cantidad * this.precio + this.calcularImpuesto() - (this.obtenerSubtotal() * (this.obtenerDescuento() || 0));
   }
   getImpuesto() {
     const estado = estados.find(e => e.value === this.estado);

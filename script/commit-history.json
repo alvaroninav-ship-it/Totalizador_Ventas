@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "58920003cce76f22c13b1fca0c788ff337586e06",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T01:05:48.000Z",
       "message": "feat: Finalizar los impuestos",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/58920003cce76f22c13b1fca0c788ff337586e06"
     },
     "stats": {
       "total": 7,
@@ -186,6 +186,25 @@
     },
     "coverage": 83.33,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T01:19:09.000Z",
+      "message": "feat: Aplicacion de descuento si llega a 1000",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 16,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 85.71,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

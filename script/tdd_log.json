@@ -262,9 +262,39 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "58920003cce76f22c13b1fca0c788ff337586e06",
     "commitName": "feat: Finalizar los impuestos",
     "commitTimestamp": 1789002349440,
     "testId": 9
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789002971483,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789003048647,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1789003120186,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Aplicacion de descuento si llega a 1000",
+    "commitTimestamp": 1789003150637,
+    "testId": 10
   }
 ]
