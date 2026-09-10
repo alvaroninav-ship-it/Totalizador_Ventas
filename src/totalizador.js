@@ -1,7 +1,10 @@
+const estados=[{value: "UT", impuesto: 0.0665}, {value: "NV", impuesto: 0.08}, {value: "TX", impuesto: 0.0625}, {value: "AL", impuesto: 0.04}, {value: "CA", impuesto: 0.0825}];
+
 class Totalizador {
-  constructor(cantidad, precio) {
+  constructor(cantidad, precio, estado) {
     this.cantidad = cantidad;
     this.precio = precio;
+    this.estado = estado;
   }
 
   validar(){
@@ -26,9 +29,16 @@ class Totalizador {
   }
   
   calcularTotal() {
-    return this.cantidad * this.precio;
+    return this.cantidad * this.precio + this.calcularImpuesto();
   }
 
+  calcularImpuesto() {
+    const estado = estados.find(e => e.value === this.estado);
+    if (estado) {
+      return this.cantidad * this.precio * estado.impuesto;
+    }
+    return 0;
+  }
 
 }
 

@@ -82,9 +82,47 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "528d60b1db44a6329399c2c7e4978af5fd885e73",
     "commitName": "feat: Validar Inputs",
     "commitTimestamp": 1788999651274,
     "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1789000040082,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1789000051508,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1789000539714,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1789000572487,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Calcular con estado",
+    "commitTimestamp": 1789000731267,
+    "testId": 4
   }
 ]
