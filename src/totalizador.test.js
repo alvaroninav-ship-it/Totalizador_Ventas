@@ -49,6 +49,10 @@ describe("Totalizador", () => {
     const totalizadorInstance = new totalizador(2000, 7,"CA");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 13755");
   });
+  it("Aplicar descuento si llega a tres mil", () => {
+    const totalizadorInstance = new totalizador(10000, 7,"CA");
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 65275");
+  });
 
 
 
