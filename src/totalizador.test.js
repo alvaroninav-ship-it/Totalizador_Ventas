@@ -33,13 +33,17 @@ describe("Totalizador", () => {
     const totalizadorInstance = new totalizador(5, 5,"CA");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 27.0625");
   });
-  it("deberia haber impuesto por estado", () => {
+  it("Aplicar descuento si llega a mil", () => {
     const totalizadorInstance = new totalizador(200, 5,"CA");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 1052.5");
   });
-  it("deberia haber impuesto por estado", () => {
+  it("Aplicar descuento si llega a tres mil", () => {
     const totalizadorInstance = new totalizador(700, 5,"CA");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 3613.75");
+  });
+  it("Aplicar descuento si llega a tres mil", () => {
+    const totalizadorInstance = new totalizador(2000, 4,"CA");
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 8100");
   });
 
 

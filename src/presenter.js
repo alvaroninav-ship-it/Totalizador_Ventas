@@ -5,7 +5,7 @@ const stateInput = document.querySelector("#estado");
 const form = document.querySelector("#ventas-form");
 const div = document.querySelector("#resultado-div");
 const impuestoDiv = document.querySelector("#impuesto-div");
-
+const descuentoDiv = document.querySelector("#descuento-div");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -16,4 +16,5 @@ form.addEventListener("submit", (event) => {
   const totalizadorInstance = new totalizador(quantity, price, state);
   div.innerHTML = "<p>" + totalizadorInstance.mostrarResultado() + "</p>";
   impuestoDiv.innerHTML = "<p>" + totalizadorInstance.getImpuesto() + "</p>";
+  descuentoDiv.innerHTML = "<p>" + totalizadorInstance.obtenerDescuentoEnPesos() + "</p>";
 });

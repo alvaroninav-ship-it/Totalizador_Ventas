@@ -32,6 +32,9 @@ class Totalizador {
 
   obtenerDescuento() {
     const subtotal = this.obtenerSubtotal();
+    if (subtotal >= 7000) {
+      return 0.07;
+    }
     if (subtotal >= 3000) {
       return 0.05;
     }
@@ -39,9 +42,13 @@ class Totalizador {
       return 0.03;
     }
   }
+  obtenerDescuentoEnPesos() {
+    const descuento = this.obtenerDescuento();
+    return this.obtenerSubtotal() * (descuento || 0);
+  }
   
   calcularTotal() {
-    return this.cantidad * this.precio + this.calcularImpuesto() - (this.obtenerSubtotal() * (this.obtenerDescuento() || 0));
+    return this.cantidad * this.precio + this.calcularImpuesto() - this.obtenerDescuentoEnPesos();
   }
   getImpuesto() {
     const estado = estados.find(e => e.value === this.estado);

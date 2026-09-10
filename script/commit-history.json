@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "26da1b49807ab37eb1c0cdc31c31027f2bb861f0",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T01:23:37.000Z",
       "message": "feat: Aplicar descuento si llega a 3 mil",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/26da1b49807ab37eb1c0cdc31c31027f2bb861f0"
     },
     "stats": {
       "total": 8,
@@ -224,6 +224,25 @@
     },
     "coverage": 86.67,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T01:28:45.000Z",
+      "message": "feat: Aplicar descuentos para superiores a 7000",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 25,
+      "deletions": 4,
+      "date": "2026-09-10"
+    },
+    "coverage": 88.24,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
