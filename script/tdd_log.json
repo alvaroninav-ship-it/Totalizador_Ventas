@@ -186,9 +186,47 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2322218fa6889d14b0a02d0516ceb85ad5affa3c",
     "commitName": "feat: Aplicar impuesto para TX",
     "commitTimestamp": 1789002015946,
     "testId": 7
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1789002093937,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1789002104876,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1789002129168,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1789002161176,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Aplicar impuestos para AL",
+    "commitTimestamp": 1789002188565,
+    "testId": 8
   }
 ]
