@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b707afd3b4d8f1618f63155016c7f0f3eb9c6550",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T02:45:19.000Z",
       "message": "feat: Agregar impuestos y descuentos a electronicos",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/b707afd3b4d8f1618f63155016c7f0f3eb9c6550"
     },
     "stats": {
       "total": 5,
@@ -395,6 +395,25 @@
     },
     "coverage": 85.71,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T02:51:06.000Z",
+      "message": "feat: Descuentos e impuestos para vestimentas",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 85.71,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

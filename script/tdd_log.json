@@ -664,9 +664,47 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b707afd3b4d8f1618f63155016c7f0f3eb9c6550",
     "commitName": "feat: Agregar impuestos y descuentos a electronicos",
     "commitTimestamp": 1789008321092,
     "testId": 20
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1789008565820,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1789008608765,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1789008625418,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1789008647770,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Descuentos e impuestos para vestimentas",
+    "commitTimestamp": 1789008667882,
+    "testId": 21
   }
 ]
