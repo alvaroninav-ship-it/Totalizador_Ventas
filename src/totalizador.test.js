@@ -117,6 +117,10 @@ describe("Totalizador", () => {
     const totalizadorInstance = new totalizador(5, 100, "UT", "Vestimenta", 150, "Recurrente");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 583.05");
     });
+    it("Venta a un cliente Antiguo Recurrente", () => {
+    const totalizadorInstance = new totalizador(5, 100, "UT", "Vestimenta", 150, "Antiguo Recurrente");
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 582.85");
+    });
 
 
 
