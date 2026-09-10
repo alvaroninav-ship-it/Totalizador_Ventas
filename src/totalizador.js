@@ -54,7 +54,13 @@ class Totalizador {
         if (peso <= 100) {
         return 6.5;
         }
-        return 0
+        if (peso <= 200) {
+        return 8;
+        }
+        if (peso >= 200) {
+        return 9;
+        }
+        return 0;
     }
     calcularCostoEnvio() {
     return this.cantidad * this.obtenerCostoEnvioPorUnidad();
