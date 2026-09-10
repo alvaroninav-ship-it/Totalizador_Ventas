@@ -156,9 +156,39 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "174bfabb9cec75691b46a03e90a73d92b820d481",
     "commitName": "feat: Aplicar descuento para NV",
     "commitTimestamp": 1789001896965,
     "testId": 6
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1789001943603,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1789001971081,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1789001994409,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Aplicar impuesto para TX",
+    "commitTimestamp": 1789002015946,
+    "testId": 7
   }
 ]

@@ -25,6 +25,7 @@ describe("Totalizador", () => {
     const totalizadorInstance = new totalizador(5, 5,"TX");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 26.5625");
   });
+  
 
 
 
