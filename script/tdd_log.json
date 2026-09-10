@@ -1094,9 +1094,87 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0de77a7d6191fc626b42f22054d416ec48bed1c1",
     "commitName": "feat: Validar valores nulos o inexistentes",
     "commitTimestamp": 1789012511053,
     "testId": 33
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1789012597119,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 22,
+    "numTotalTests": 32,
+    "timestamp": 1789012617392,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1789012675038,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1789012694643,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 21,
+    "numTotalTests": 33,
+    "timestamp": 1789012728307,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1789012891186,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1789012993580,
+    "success": true,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1789013053243,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1789013073727,
+    "success": true,
+    "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Validar peso volumetrico",
+    "commitTimestamp": 1789013102241,
+    "testId": 34
   }
 ]

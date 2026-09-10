@@ -18,7 +18,7 @@ const tiposCliente = [
 
 
 class Totalizador {
-  constructor(cantidad, precio, estado, categoria,pesoVolumetrico, tipoCliente) {
+  constructor(cantidad, precio, estado, categoria,pesoVolumetrico=0, tipoCliente) {
     this.cantidad = cantidad;
     this.precio = precio;
     this.estado = estado;
@@ -107,6 +107,12 @@ class Totalizador {
     }
     if(this.cantidad<0){
       mensaje+="La cantidad no puede ser negativa.";
+    }
+    if(this.pesoVolumetrico === undefined || this.pesoVolumetrico === null || this.pesoVolumetrico === "") {
+        mensaje += "El peso volumétrico es obligatorio. ";
+    }
+    if(this.pesoVolumetrico<0){
+      mensaje+="El peso volumétrico debe ser mayor o igual a 0. ";
     }
     return mensaje;
   }

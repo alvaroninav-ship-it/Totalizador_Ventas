@@ -627,12 +627,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0de77a7d6191fc626b42f22054d416ec48bed1c1",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T03:55:09.000Z",
       "message": "feat: Validar valores nulos o inexistentes",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/0de77a7d6191fc626b42f22054d416ec48bed1c1"
     },
     "stats": {
       "total": 16,
@@ -642,6 +642,25 @@
     },
     "coverage": 89.9,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T04:05:00.000Z",
+      "message": "feat: Validar peso volumetrico",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 12,
+      "deletions": 7,
+      "date": "2026-09-10"
+    },
+    "coverage": 87.38,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }

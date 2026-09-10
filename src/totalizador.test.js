@@ -128,12 +128,11 @@ describe("Totalizador", () => {
     it("Validar cantidad faltante", () => {
     const totalizadorInstance =new totalizador(2, undefined, "CA", "Varios", 10, "Normal");
     expect(totalizadorInstance.validar()).toContain("El precio es obligatorio.");
-
-});
-
-
-
-
+    });
+    it("No permitir peso volumétrico negativo", () => {
+    const totalizadorInstance =new totalizador(10, 100, "CA", "Varios", -10, "Normal");
+    expect(totalizadorInstance.validar()).toContain("El peso volumétrico debe ser mayor o igual a 0.");
+    });
 
 });
 
