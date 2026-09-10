@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "baada69ff3dbb55f165b714b35e86594650a47fb",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T03:11:43.000Z",
       "message": "feat: Peso volumetrico entre 100 y 200",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/baada69ff3dbb55f165b714b35e86594650a47fb"
     },
     "stats": {
       "total": 14,
@@ -528,6 +528,25 @@
     },
     "coverage": 87.8,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T03:19:08.000Z",
+      "message": "feat: Descuento a clinete normal",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 24,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 89.01,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

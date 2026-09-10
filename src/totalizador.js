@@ -9,15 +9,19 @@ const categorias = [
   { value: "Electrónicos", descuento: 0.01,impuesto: 0.04 },
   { value: "Vestimenta", descuento: 0.0,impuesto: 0.02 },
 ];
+const tiposCliente = [
+    { value: "Normal", descuento: 0.00 },
+]
 
 
 class Totalizador {
-  constructor(cantidad, precio, estado, categoria,pesoVolumetrico) {
+  constructor(cantidad, precio, estado, categoria,pesoVolumetrico, tipoCliente) {
     this.cantidad = cantidad;
     this.precio = precio;
     this.estado = estado;
     this.categoria = categoria;
     this.pesoVolumetrico = pesoVolumetrico;
+    this.tipoCliente = tipoCliente;
   }
 
   obtenerDescuentoPorCategoria() {
@@ -27,6 +31,17 @@ class Totalizador {
     }
     return 0;
   }
+  obtenerDescuentoCliente() {
+    const cliente = tiposCliente.find(
+        c => c.value === this.tipoCliente
+    );
+
+    if (cliente) {
+        return cliente.descuento;
+    }
+
+    return 0;
+    }
   obtenerImpuestoPorCategoria() {
     const categoria = categorias.find(c => c.value === this.categoria);
     if (categoria) {
@@ -63,7 +78,10 @@ class Totalizador {
         return 0;
     }
     calcularCostoEnvio() {
-    return this.cantidad * this.obtenerCostoEnvioPorUnidad();
+        const costoEnvio = this.cantidad *this.obtenerCostoEnvioPorUnidad();
+        const descuento = costoEnvio*this.obtenerDescuentoCliente();
+
+        return costoEnvio - descuento;
     }
   validar(){
     let mensaje="";

@@ -914,9 +914,39 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "baada69ff3dbb55f165b714b35e86594650a47fb",
     "commitName": "feat: Peso volumetrico entre 100 y 200",
     "commitTimestamp": 1789009904278,
     "testId": 27
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789010205035,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789010306764,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789010328762,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Descuento a clinete normal",
+    "commitTimestamp": 1789010349676,
+    "testId": 28
   }
 ]
