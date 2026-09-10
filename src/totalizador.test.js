@@ -137,6 +137,12 @@ describe("Totalizador", () => {
     const totalizadorInstance =new totalizador(80,100,"UT","Electrónicos",10,"Especial");
     expect(totalizadorInstance.obtenerDescuentoFijo()).toEqual(200);
     });
+    it("Aplicar descuento fijo a cliente Recurrente", () => {
+
+    const totalizadorInstance =new totalizador(40,100,"UT","Alimentos",10,"Recurrente");
+
+    expect(totalizadorInstance.obtenerDescuentoFijo()).toEqual(100);
+});
 
 });
 

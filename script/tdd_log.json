@@ -1202,9 +1202,31 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0aae969413cc1ee38d587f38739398bff4f2e240",
     "commitName": "feat: Descuento fijo de Especial, Electronico y 7000",
     "commitTimestamp": 1789013865631,
     "testId": 35
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1789014017392,
+    "success": false,
+    "testId": 36
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1789014057561,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Descuento fijo de Recurrente, Alimentos y 3000",
+    "commitTimestamp": 1789014083690,
+    "testId": 36
   }
 ]

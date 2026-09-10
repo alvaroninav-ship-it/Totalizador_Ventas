@@ -49,7 +49,13 @@ class Totalizador {
 
     const precioNeto = this.obtenerSubtotal()
         - this.obtenerDescuentoEnPesos();
-
+    if (
+        this.tipoCliente === "Recurrente" &&
+        precioNeto > 3000 &&
+        this.categoria === "Alimentos"
+    ) {
+        return 100;
+    }
     if (
         this.tipoCliente === "Especial" &&
         precioNeto > 7000 &&
