@@ -32,7 +32,9 @@ class Totalizador {
 
   obtenerDescuento() {
     const subtotal = this.obtenerSubtotal();
-
+    if (subtotal >= 3000) {
+      return 0.05;
+    }
     if (subtotal >= 1000) {
       return 0.03;
     }
