@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "45cfea3216f674646eb47607df30748e8c2241ab",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-09T23:55:29.000Z",
       "message": "feat: Multiplicacion basica",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/45cfea3216f674646eb47607df30748e8c2241ab"
     },
     "stats": {
       "total": 137,
@@ -17,5 +17,24 @@
     "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T00:04:59.000Z",
+      "message": "refactor: Cambiando funcion a clase",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 17,
+      "deletions": 4,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

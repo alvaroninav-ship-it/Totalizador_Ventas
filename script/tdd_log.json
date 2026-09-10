@@ -16,9 +16,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "45cfea3216f674646eb47607df30748e8c2241ab",
     "commitName": "feat: Multiplicacion basica",
     "commitTimestamp": 1788998130752,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: Cambiando funcion a clase",
+    "commitTimestamp": 1788998700534,
+    "testId": 1
   }
 ]
