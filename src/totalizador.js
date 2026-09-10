@@ -45,6 +45,14 @@ class Totalizador {
 
     return 0;
     }
+    obtenerDescuentoFijo() {
+
+    const precioNeto = this.obtenerSubtotal()
+        - this.obtenerDescuentoEnPesos();
+
+    
+    return 0;
+    }
   obtenerImpuestoPorCategoria() {
     const categoria = categorias.find(c => c.value === this.categoria);
     if (categoria) {
@@ -142,6 +150,9 @@ class Totalizador {
     const precioConDescuentos =precioConDescuento - descuentoCategoria;
     const impuestoEstado =this.calcularImpuesto(precioConDescuentos);
     const impuestoCategoria =precioConDescuentos * this.obtenerImpuestoPorCategoria();
+    const descuentoFijo = this.obtenerDescuentoFijo();
+    const precioFinalProductos =
+    precioConDescuentos - descuentoFijo;
     const costoEnvio =this.calcularCostoEnvio();
     return precioConDescuentos + impuestoEstado + impuestoCategoria+ costoEnvio;
 }

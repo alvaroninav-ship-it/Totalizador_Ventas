@@ -1034,9 +1034,23 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "acbf79bc557529469178d31703e1b09223219d8a",
     "commitName": "feat: Descuento a clinete Especial",
     "commitTimestamp": 1789010938542,
     "testId": 31
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1789011953573,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: Agregando columnas de informacion",
+    "commitTimestamp": 1789011984519,
+    "testId": 32
   }
 ]
