@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f1642393468c1d3b8e56c7212d64d0eafaf0f0cb",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T02:36:42.000Z",
       "message": "feat: Anadir descruentos e impuestos a Bebidas alcoholicas",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/f1642393468c1d3b8e56c7212d64d0eafaf0f0cb"
     },
     "stats": {
       "total": 11,
@@ -338,6 +338,25 @@
     },
     "coverage": 85.71,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T02:39:42.000Z",
+      "message": "feat: Impuestos y desceuntos para material de escritorio",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 85.71,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }
