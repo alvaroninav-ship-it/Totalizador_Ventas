@@ -1224,9 +1224,63 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7595d93049bcfc2c75e7df8543c8e0538b620a75",
     "commitName": "feat: Descuento fijo de Recurrente, Alimentos y 3000",
     "commitTimestamp": 1789014083690,
     "testId": 36
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 8,
+    "numTotalTests": 35,
+    "timestamp": 1789014419425,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 8,
+    "numTotalTests": 35,
+    "timestamp": 1789014454517,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1789014526818,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1789014577475,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 28,
+    "numTotalTests": 35,
+    "timestamp": 1789014600918,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1789014632385,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: Mejorar legibilidad",
+    "commitTimestamp": 1789014925831,
+    "testId": 37
   }
 ]

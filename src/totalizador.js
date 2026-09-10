@@ -49,6 +49,7 @@ class Totalizador {
 
     const precioNeto = this.obtenerSubtotal()
         - this.obtenerDescuentoEnPesos();
+
     if (
         this.tipoCliente === "Recurrente" &&
         precioNeto > 3000 &&
@@ -178,7 +179,7 @@ class Totalizador {
     const precioFinalProductos =
     precioConDescuentos - descuentoFijo;
     const costoEnvio =this.calcularCostoEnvio();
-    return precioConDescuentos + impuestoEstado + impuestoCategoria+ costoEnvio;
+    return precioConDescuentos + impuestoEstado + impuestoCategoria+ costoEnvio-descuentoFijo;
 }
   getImpuesto() {
     const estado = estados.find(e => e.value === this.estado);
