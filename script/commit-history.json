@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "600d22ac600dec2bcbb66741e7d53f9a4a71d7a7",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T02:59:17.000Z",
       "message": "feat: Calcular el peso por unidad",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/600d22ac600dec2bcbb66741e7d53f9a4a71d7a7"
     },
     "stats": {
       "total": 38,
@@ -433,6 +433,25 @@
     },
     "coverage": 87.14,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T03:02:19.000Z",
+      "message": "feat: Peso volumetrico entre 10 y 20",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 87.5,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

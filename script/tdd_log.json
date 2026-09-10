@@ -740,9 +740,47 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "600d22ac600dec2bcbb66741e7d53f9a4a71d7a7",
     "commitName": "feat: Calcular el peso por unidad",
     "commitTimestamp": 1789009159014,
     "testId": 22
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1789009215566,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1789009239592,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1789009292724,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1789009314048,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Peso volumetrico entre 10 y 20",
+    "commitTimestamp": 1789009341029,
+    "testId": 23
   }
 ]
