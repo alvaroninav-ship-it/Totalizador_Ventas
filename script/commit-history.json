@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f909f63ca8504d90a64fe72283d1f79a783f9642",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T04:05:00.000Z",
       "message": "feat: Validar peso volumetrico",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/f909f63ca8504d90a64fe72283d1f79a783f9642"
     },
     "stats": {
       "total": 19,
@@ -661,6 +661,25 @@
     },
     "coverage": 87.38,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T04:17:44.000Z",
+      "message": "feat: Descuento fijo de Especial, Electronico y 7000",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 84.76,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }

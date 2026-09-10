@@ -18,7 +18,7 @@ const tiposCliente = [
 
 
 class Totalizador {
-  constructor(cantidad, precio, estado, categoria,pesoVolumetrico=0, tipoCliente) {
+  constructor(cantidad, precio, estado, categoria="Varios",pesoVolumetrico=0, tipoCliente="Normal") {
     this.cantidad = cantidad;
     this.precio = precio;
     this.estado = estado;
@@ -50,7 +50,13 @@ class Totalizador {
     const precioNeto = this.obtenerSubtotal()
         - this.obtenerDescuentoEnPesos();
 
-    
+    if (
+        this.tipoCliente === "Especial" &&
+        precioNeto > 7000 &&
+        this.categoria === "Electrónicos"
+    ) {
+        return 200;
+    }
     return 0;
     }
   obtenerImpuestoPorCategoria() {

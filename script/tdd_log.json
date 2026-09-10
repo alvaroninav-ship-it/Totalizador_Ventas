@@ -1172,9 +1172,39 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f909f63ca8504d90a64fe72283d1f79a783f9642",
     "commitName": "feat: Validar peso volumetrico",
     "commitTimestamp": 1789013102241,
     "testId": 34
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1789013337795,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1789013761604,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1789013839141,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Descuento fijo de Especial, Electronico y 7000",
+    "commitTimestamp": 1789013865631,
+    "testId": 35
   }
 ]

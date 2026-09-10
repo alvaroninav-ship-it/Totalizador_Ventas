@@ -133,6 +133,10 @@ describe("Totalizador", () => {
     const totalizadorInstance =new totalizador(10, 100, "CA", "Varios", -10, "Normal");
     expect(totalizadorInstance.validar()).toContain("El peso volumétrico debe ser mayor o igual a 0.");
     });
+    it("Aplicar descuento fijo a cliente Especial", () => {
+    const totalizadorInstance =new totalizador(80,100,"UT","Electrónicos",10,"Especial");
+    expect(totalizadorInstance.obtenerDescuentoFijo()).toEqual(200);
+    });
 
 });
 
