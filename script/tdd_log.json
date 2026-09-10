@@ -604,9 +604,39 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "75539df793e2eebe8973413f2595fbdcec8717b9",
     "commitName": "feat: Impuestos y desceuntos para material de escritorio",
     "commitTimestamp": 1789007983764,
     "testId": 18
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1789008101583,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1789008123805,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1789008160283,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Agregar impuestos y descuentos para muebles",
+    "commitTimestamp": 1789008183258,
+    "testId": 19
   }
 ]

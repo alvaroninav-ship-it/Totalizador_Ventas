@@ -69,6 +69,10 @@ describe("Totalizador", () => {
     const totalizadorInstance = new totalizador(5, 100, "UT", "Material de escritorio");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 525.75");
     });
+    it("Venta pequeña descuentos e impuestos para muebles", () => {
+    const totalizadorInstance = new totalizador(5, 100, "UT", "Muebles");
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 548.25");
+    });
 
 
 

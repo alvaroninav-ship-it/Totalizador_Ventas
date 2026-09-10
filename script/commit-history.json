@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "75539df793e2eebe8973413f2595fbdcec8717b9",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T02:39:42.000Z",
       "message": "feat: Impuestos y desceuntos para material de escritorio",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/75539df793e2eebe8973413f2595fbdcec8717b9"
     },
     "stats": {
       "total": 7,
@@ -357,6 +357,25 @@
     },
     "coverage": 85.71,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T02:43:02.000Z",
+      "message": "feat: Agregar impuestos y descuentos para muebles",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 85.71,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }
