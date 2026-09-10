@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f1a98f65ed9a63f506f8c8eddeaf3dfb30e337a3",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T00:38:50.000Z",
       "message": "feat: Calcular con estado",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/f1a98f65ed9a63f506f8c8eddeaf3dfb30e337a3"
     },
     "stats": {
       "total": 34,
@@ -90,6 +90,25 @@
       "date": "2026-09-10"
     },
     "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T00:50:19.000Z",
+      "message": "style: Anadir el impuesto y estetica",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 27,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 83.33,
     "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"

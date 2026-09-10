@@ -31,6 +31,12 @@ class Totalizador {
   calcularTotal() {
     return this.cantidad * this.precio + this.calcularImpuesto();
   }
+  getImpuesto() {
+    const estado = estados.find(e => e.value === this.estado);
+    if (estado) {
+      return "Para " + this.estado + ": " + (estado.impuesto * 100) + "%";
+    }
+  }
 
   calcularImpuesto() {
     const estado = estados.find(e => e.value === this.estado);

@@ -28,6 +28,14 @@
           <input type="number" id="precio" step="0.01">
         </td>
         <td>
+          <input type="submit" value="Totalizar" id="calcular-total-button">
+        </td>
+      </tr>
+      <tr>
+        <td class="label">
+          <label for="estado">Estado:</label>
+        </td>
+        <td>
           <select type="select" id="estado">
             <option value="UT">UT </option>
             <option value="NV">NV</option>
@@ -38,8 +46,16 @@
           </select>
         </td>
         <td>
-          <input type="submit" value="Totalizar" id="calcular-total-button">
         </td>
+      </tr>
+      <tr>
+        <td class="label">
+          <label for="impuesto">Impuesto:</label>
+        </td>
+        <td>
+          <div id="impuesto-div"></div>
+        </td>
+        <td></td>
       </tr>
       <tr>
         <td colspan="3">
