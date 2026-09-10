@@ -50,7 +50,10 @@ class Totalizador {
         }
         if (peso <= 80) {
         return 6;
-    }
+        }
+        if (peso <= 100) {
+        return 6.5;
+        }
         return 0
     }
     calcularCostoEnvio() {
