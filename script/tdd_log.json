@@ -512,9 +512,71 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ecd663b1773b2b7f20246b8bc8f19d2537ed0146",
     "commitName": "refactor: Cambiar el calculo de precios",
     "commitTimestamp": 1789007251722,
     "testId": 16
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1789007468767,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1789007505238,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1789007542635,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1789007663740,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1789007684876,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1789007737722,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1789007761020,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Anadir descruentos e impuestos a Bebidas alcoholicas",
+    "commitTimestamp": 1789007803998,
+    "testId": 17
   }
 ]

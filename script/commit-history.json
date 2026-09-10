@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ecd663b1773b2b7f20246b8bc8f19d2537ed0146",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T02:27:30.000Z",
       "message": "refactor: Cambiar el calculo de precios",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/ecd663b1773b2b7f20246b8bc8f19d2537ed0146"
     },
     "stats": {
       "total": 24,
@@ -319,6 +319,25 @@
     },
     "coverage": 85.71,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T02:36:42.000Z",
+      "message": "feat: Anadir descruentos e impuestos a Bebidas alcoholicas",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 85.71,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

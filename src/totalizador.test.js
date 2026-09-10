@@ -57,7 +57,14 @@ describe("Totalizador", () => {
     const totalizadorInstance = new totalizador(10000, 7,"CA","Alimentos");
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 64085");
   });
-  
+  it("Venta pequeña sin descuentos ni impuestos", () => {
+    const totalizadorInstance = new totalizador(5, 100, "UT", "Varios");
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 533.25");
+});
+    it("Venta pequeña sin descuentos ni impuestos", () => {
+    const totalizadorInstance = new totalizador(5, 100, "UT", "Bebidas alcohólicas");
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 568.25");
+    });
 
 
 

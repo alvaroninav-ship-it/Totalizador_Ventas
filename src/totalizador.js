@@ -2,6 +2,8 @@ const estados=[{value: "UT", impuesto: 0.0665},{value: "NV", impuesto: 0.08},{va
 
 const categorias = [
   { value: "Alimentos", descuento: 0.02,impuesto: 0.00 },
+  { value: "Varios", descuento: 0.00, impuesto: 0.00 },
+  { value: "Bebidas alcohólicas", descuento: 0.00,impuesto: 0.07 },
 ];
 
 
