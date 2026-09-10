@@ -93,6 +93,10 @@ describe("Totalizador", () => {
     const totalizadorInstance = new totalizador(5, 100, "UT", "Vestimenta", 15);
     expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 560.75");
     });
+     it("Venta con peso volumetrico de menos de 40", () => {
+    const totalizadorInstance = new totalizador(5, 100, "UT", "Vestimenta", 35);
+    expect(totalizadorInstance.mostrarResultado()).toEqual("El total es: 568.25");
+    });
 
 
 

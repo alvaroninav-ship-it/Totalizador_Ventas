@@ -778,9 +778,47 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "32a3be9118fb6bdee7e5e3b9caa9e5a3a3ac622a",
     "commitName": "feat: Peso volumetrico entre 10 y 20",
     "commitTimestamp": 1789009341029,
     "testId": 23
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1789009384554,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789009413602,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1789009441855,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1789009461928,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Peso volumetrico entre 30 y 40",
+    "commitTimestamp": 1789009494683,
+    "testId": 24
   }
 ]
