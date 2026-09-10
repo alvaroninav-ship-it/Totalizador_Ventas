@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "31229594ca80f2300d5378062377abd52a918e7d",
     "author": "Alvaro Nina",
     "commit": {
       "date": "2026-09-10T00:04:59.000Z",
       "message": "refactor: Cambiando funcion a clase",
-      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/31229594ca80f2300d5378062377abd52a918e7d"
     },
     "stats": {
       "total": 21,
       "additions": 17,
       "deletions": 4,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 1,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alvaro Nina",
+    "commit": {
+      "date": "2026-09-10T00:09:19.000Z",
+      "message": "fix: Presenter Arreglado",
+      "url": "https://github.com/alvaroninav-ship-it/Totalizador_Ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
       "date": "2026-09-10"
     },
     "coverage": 100,

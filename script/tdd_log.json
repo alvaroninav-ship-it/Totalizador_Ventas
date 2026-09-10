@@ -22,9 +22,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "31229594ca80f2300d5378062377abd52a918e7d",
     "commitName": "refactor: Cambiando funcion a clase",
     "commitTimestamp": 1788998700534,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: Presenter Arreglado",
+    "commitTimestamp": 1788998961005,
+    "testId": 2
   }
 ]
